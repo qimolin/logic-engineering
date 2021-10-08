@@ -218,7 +218,7 @@ namespace logic_engineering
             this.panelTopbar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTopbar.Location = new System.Drawing.Point(0, 0);
             this.panelTopbar.Name = "panelTopbar";
-            this.panelTopbar.Size = new System.Drawing.Size(958, 41);
+            this.panelTopbar.Size = new System.Drawing.Size(981, 41);
             this.panelTopbar.TabIndex = 3;
             // 
             // btMinimize
@@ -230,9 +230,9 @@ namespace logic_engineering
             this.btMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btMinimize.Font = new System.Drawing.Font("Lucida Sans", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btMinimize.ForeColor = System.Drawing.Color.White;
-            this.btMinimize.Location = new System.Drawing.Point(903, 4);
+            this.btMinimize.Location = new System.Drawing.Point(919, 5);
             this.btMinimize.Name = "btMinimize";
-            this.btMinimize.Size = new System.Drawing.Size(22, 29);
+            this.btMinimize.Size = new System.Drawing.Size(31, 29);
             this.btMinimize.TabIndex = 27;
             this.btMinimize.Text = "-";
             this.btMinimize.UseVisualStyleBackColor = true;
@@ -247,9 +247,9 @@ namespace logic_engineering
             this.btClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btClose.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btClose.ForeColor = System.Drawing.Color.White;
-            this.btClose.Location = new System.Drawing.Point(925, 3);
+            this.btClose.Location = new System.Drawing.Point(940, 3);
             this.btClose.Name = "btClose";
-            this.btClose.Size = new System.Drawing.Size(25, 31);
+            this.btClose.Size = new System.Drawing.Size(36, 31);
             this.btClose.TabIndex = 26;
             this.btClose.Text = "X";
             this.btClose.UseVisualStyleBackColor = true;
@@ -269,7 +269,7 @@ namespace logic_engineering
             // tbProposition
             // 
             this.tbProposition.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbProposition.Location = new System.Drawing.Point(397, 67);
+            this.tbProposition.Location = new System.Drawing.Point(401, 67);
             this.tbProposition.Name = "tbProposition";
             this.tbProposition.Size = new System.Drawing.Size(405, 27);
             this.tbProposition.TabIndex = 5;
@@ -279,7 +279,7 @@ namespace logic_engineering
             this.lbProposition.AutoSize = true;
             this.lbProposition.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbProposition.ForeColor = System.Drawing.Color.Black;
-            this.lbProposition.Location = new System.Drawing.Point(298, 67);
+            this.lbProposition.Location = new System.Drawing.Point(301, 69);
             this.lbProposition.Name = "lbProposition";
             this.lbProposition.Size = new System.Drawing.Size(97, 23);
             this.lbProposition.TabIndex = 7;
@@ -294,7 +294,7 @@ namespace logic_engineering
             this.btParse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btParse.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btParse.ForeColor = System.Drawing.Color.White;
-            this.btParse.Location = new System.Drawing.Point(807, 65);
+            this.btParse.Location = new System.Drawing.Point(813, 64);
             this.btParse.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btParse.Name = "btParse";
             this.btParse.Size = new System.Drawing.Size(143, 32);
@@ -332,7 +332,7 @@ namespace logic_engineering
             this.lbOperators.AutoSize = true;
             this.lbOperators.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbOperators.ForeColor = System.Drawing.Color.Black;
-            this.lbOperators.Location = new System.Drawing.Point(33, 101);
+            this.lbOperators.Location = new System.Drawing.Point(48, 106);
             this.lbOperators.Name = "lbOperators";
             this.lbOperators.Size = new System.Drawing.Size(86, 23);
             this.lbOperators.TabIndex = 13;
@@ -341,7 +341,7 @@ namespace logic_engineering
             // tbOperators
             // 
             this.tbOperators.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbOperators.Location = new System.Drawing.Point(119, 101);
+            this.tbOperators.Location = new System.Drawing.Point(134, 106);
             this.tbOperators.Name = "tbOperators";
             this.tbOperators.ReadOnly = true;
             this.tbOperators.Size = new System.Drawing.Size(554, 27);
@@ -352,7 +352,7 @@ namespace logic_engineering
             this.lbVariables.AutoSize = true;
             this.lbVariables.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbVariables.ForeColor = System.Drawing.Color.Black;
-            this.lbVariables.Location = new System.Drawing.Point(42, 68);
+            this.lbVariables.Location = new System.Drawing.Point(56, 73);
             this.lbVariables.Name = "lbVariables";
             this.lbVariables.Size = new System.Drawing.Size(78, 23);
             this.lbVariables.TabIndex = 10;
@@ -363,7 +363,7 @@ namespace logic_engineering
             this.lbInfixProp.AutoSize = true;
             this.lbInfixProp.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbInfixProp.ForeColor = System.Drawing.Color.Black;
-            this.lbInfixProp.Location = new System.Drawing.Point(75, 37);
+            this.lbInfixProp.Location = new System.Drawing.Point(89, 41);
             this.lbInfixProp.Name = "lbInfixProp";
             this.lbInfixProp.Size = new System.Drawing.Size(42, 23);
             this.lbInfixProp.TabIndex = 16;
@@ -372,7 +372,7 @@ namespace logic_engineering
             // tbVariables
             // 
             this.tbVariables.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbVariables.Location = new System.Drawing.Point(119, 68);
+            this.tbVariables.Location = new System.Drawing.Point(134, 73);
             this.tbVariables.Name = "tbVariables";
             this.tbVariables.ReadOnly = true;
             this.tbVariables.Size = new System.Drawing.Size(554, 27);
@@ -381,7 +381,7 @@ namespace logic_engineering
             // tbInfixProp
             // 
             this.tbInfixProp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbInfixProp.Location = new System.Drawing.Point(119, 36);
+            this.tbInfixProp.Location = new System.Drawing.Point(134, 41);
             this.tbInfixProp.Name = "tbInfixProp";
             this.tbInfixProp.ReadOnly = true;
             this.tbInfixProp.Size = new System.Drawing.Size(554, 27);
@@ -390,7 +390,7 @@ namespace logic_engineering
             // tbPrefix
             // 
             this.tbPrefix.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbPrefix.Location = new System.Drawing.Point(119, 0);
+            this.tbPrefix.Location = new System.Drawing.Point(134, 5);
             this.tbPrefix.Name = "tbPrefix";
             this.tbPrefix.ReadOnly = true;
             this.tbPrefix.Size = new System.Drawing.Size(554, 27);
@@ -401,7 +401,7 @@ namespace logic_engineering
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(69, 0);
+            this.label1.Location = new System.Drawing.Point(82, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 23);
             this.label1.TabIndex = 20;
@@ -431,7 +431,7 @@ namespace logic_engineering
             // tbHashValue
             // 
             this.tbHashValue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbHashValue.Location = new System.Drawing.Point(119, 167);
+            this.tbHashValue.Location = new System.Drawing.Point(134, 172);
             this.tbHashValue.Name = "tbHashValue";
             this.tbHashValue.ReadOnly = true;
             this.tbHashValue.Size = new System.Drawing.Size(555, 27);
@@ -442,7 +442,7 @@ namespace logic_engineering
             this.lbHashValue.AutoSize = true;
             this.lbHashValue.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbHashValue.ForeColor = System.Drawing.Color.Black;
-            this.lbHashValue.Location = new System.Drawing.Point(69, 168);
+            this.lbHashValue.Location = new System.Drawing.Point(83, 172);
             this.lbHashValue.Name = "lbHashValue";
             this.lbHashValue.Size = new System.Drawing.Size(48, 23);
             this.lbHashValue.TabIndex = 23;
@@ -472,9 +472,10 @@ namespace logic_engineering
             this.panelFormulas.Controls.Add(this.label1);
             this.panelFormulas.Controls.Add(this.tbOperators);
             this.panelFormulas.Controls.Add(this.lbOperators);
-            this.panelFormulas.Location = new System.Drawing.Point(277, 103);
+            this.panelFormulas.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.panelFormulas.Location = new System.Drawing.Point(267, 103);
             this.panelFormulas.Name = "panelFormulas";
-            this.panelFormulas.Size = new System.Drawing.Size(674, 493);
+            this.panelFormulas.Size = new System.Drawing.Size(702, 493);
             this.panelFormulas.TabIndex = 24;
             // 
             // lbHashSimplified
@@ -482,7 +483,7 @@ namespace logic_engineering
             this.lbHashSimplified.AutoSize = true;
             this.lbHashSimplified.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbHashSimplified.ForeColor = System.Drawing.Color.Black;
-            this.lbHashSimplified.Location = new System.Drawing.Point(0, 240);
+            this.lbHashSimplified.Location = new System.Drawing.Point(4, 245);
             this.lbHashSimplified.Name = "lbHashSimplified";
             this.lbHashSimplified.Size = new System.Drawing.Size(127, 23);
             this.lbHashSimplified.TabIndex = 34;
@@ -491,7 +492,7 @@ namespace logic_engineering
             // tbHashSimplified
             // 
             this.tbHashSimplified.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbHashSimplified.Location = new System.Drawing.Point(119, 239);
+            this.tbHashSimplified.Location = new System.Drawing.Point(134, 244);
             this.tbHashSimplified.Name = "tbHashSimplified";
             this.tbHashSimplified.ReadOnly = true;
             this.tbHashSimplified.Size = new System.Drawing.Size(555, 27);
@@ -502,7 +503,7 @@ namespace logic_engineering
             this.lbBinarySimplified.AutoSize = true;
             this.lbBinarySimplified.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbBinarySimplified.ForeColor = System.Drawing.Color.Black;
-            this.lbBinarySimplified.Location = new System.Drawing.Point(-6, 204);
+            this.lbBinarySimplified.Location = new System.Drawing.Point(-3, 210);
             this.lbBinarySimplified.Name = "lbBinarySimplified";
             this.lbBinarySimplified.Size = new System.Drawing.Size(136, 23);
             this.lbBinarySimplified.TabIndex = 33;
@@ -511,7 +512,7 @@ namespace logic_engineering
             // tbBinarySimplified
             // 
             this.tbBinarySimplified.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbBinarySimplified.Location = new System.Drawing.Point(119, 203);
+            this.tbBinarySimplified.Location = new System.Drawing.Point(134, 208);
             this.tbBinarySimplified.Name = "tbBinarySimplified";
             this.tbBinarySimplified.ReadOnly = true;
             this.tbBinarySimplified.Size = new System.Drawing.Size(555, 27);
@@ -522,7 +523,7 @@ namespace logic_engineering
             this.lbNand.AutoSize = true;
             this.lbNand.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbNand.ForeColor = System.Drawing.Color.Black;
-            this.lbNand.Location = new System.Drawing.Point(66, 344);
+            this.lbNand.Location = new System.Drawing.Point(79, 349);
             this.lbNand.Name = "lbNand";
             this.lbNand.Size = new System.Drawing.Size(52, 23);
             this.lbNand.TabIndex = 31;
@@ -533,7 +534,7 @@ namespace logic_engineering
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(2, 308);
+            this.label2.Location = new System.Drawing.Point(12, 313);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 23);
             this.label2.TabIndex = 31;
@@ -544,7 +545,7 @@ namespace logic_engineering
             this.lbDNF.AutoSize = true;
             this.lbDNF.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbDNF.ForeColor = System.Drawing.Color.Black;
-            this.lbDNF.Location = new System.Drawing.Point(73, 277);
+            this.lbDNF.Location = new System.Drawing.Point(90, 280);
             this.lbDNF.Name = "lbDNF";
             this.lbDNF.Size = new System.Drawing.Size(43, 23);
             this.lbDNF.TabIndex = 30;
@@ -553,7 +554,7 @@ namespace logic_engineering
             // tbNand
             // 
             this.tbNand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbNand.Location = new System.Drawing.Point(119, 344);
+            this.tbNand.Location = new System.Drawing.Point(134, 349);
             this.tbNand.Name = "tbNand";
             this.tbNand.ReadOnly = true;
             this.tbNand.Size = new System.Drawing.Size(555, 27);
@@ -562,7 +563,7 @@ namespace logic_engineering
             // tbDNFSimplified
             // 
             this.tbDNFSimplified.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbDNFSimplified.Location = new System.Drawing.Point(119, 308);
+            this.tbDNFSimplified.Location = new System.Drawing.Point(134, 313);
             this.tbDNFSimplified.Name = "tbDNFSimplified";
             this.tbDNFSimplified.ReadOnly = true;
             this.tbDNFSimplified.Size = new System.Drawing.Size(555, 27);
@@ -571,7 +572,7 @@ namespace logic_engineering
             // tbDNF
             // 
             this.tbDNF.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbDNF.Location = new System.Drawing.Point(119, 275);
+            this.tbDNF.Location = new System.Drawing.Point(134, 280);
             this.tbDNF.Name = "tbDNF";
             this.tbDNF.ReadOnly = true;
             this.tbDNF.Size = new System.Drawing.Size(555, 27);
@@ -582,7 +583,7 @@ namespace logic_engineering
             this.lbBinary.AutoSize = true;
             this.lbBinary.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbBinary.ForeColor = System.Drawing.Color.Black;
-            this.lbBinary.Location = new System.Drawing.Point(61, 136);
+            this.lbBinary.Location = new System.Drawing.Point(77, 138);
             this.lbBinary.Name = "lbBinary";
             this.lbBinary.Size = new System.Drawing.Size(57, 23);
             this.lbBinary.TabIndex = 25;
@@ -591,7 +592,7 @@ namespace logic_engineering
             // tbBinary
             // 
             this.tbBinary.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbBinary.Location = new System.Drawing.Point(119, 133);
+            this.tbBinary.Location = new System.Drawing.Point(134, 138);
             this.tbBinary.Name = "tbBinary";
             this.tbBinary.ReadOnly = true;
             this.tbBinary.Size = new System.Drawing.Size(555, 27);
@@ -623,7 +624,7 @@ namespace logic_engineering
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(958, 619);
+            this.ClientSize = new System.Drawing.Size(981, 619);
             this.Controls.Add(this.panelFormulas);
             this.Controls.Add(this.truthTableSimplified);
             this.Controls.Add(this.truthTable);
